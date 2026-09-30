@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background-color: rgb(175, 193, 209);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principal {
+    width: 80%;
+    margin: 30px auto;
+    background-color:aliceblue;
+    border: 1 px solid rgb(131, 163, 192);
+}
+
+#topo_geral{
+    background-color: aliceblue;
+    color:black;
+    padding: 25px;
+    text-align: center;
+}
+
+nav{
+    background-color: rgb(206, 210, 214);
+    padding: 10px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav a{
+    display: block;
+    color:white;
+    padding: 10px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: aliceblue;
+    color: darkblue;
+}
